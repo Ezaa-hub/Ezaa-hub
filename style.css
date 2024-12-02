@@ -335,12 +335,16 @@ header{
     .home-text{
         padding-top: inherit;
     }
+
+    .shop-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .shop-container .box{
         margin-top: 6rem;
     }
     .heading h1{
         font-size: 1.5rem;
-
     }
     .heading span{
         font-size: 0.9rem;
